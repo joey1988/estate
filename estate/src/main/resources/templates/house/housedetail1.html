@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+	<title>MEUI</title>
+	<link href="../css/meui.css" rel="stylesheet" type="text/css">
+	<script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script>
+	<script src="../js/jquery.Slider.js" type="text/javascript"></script>
+	<script src="../js/common.js" type="text/javascript"></script>
+	<script src="../js/mejs.js" type="text/javascript"></script>
+	<script src="../js/menudown.js" type="text/javascript"></script>
+	<script>
+        $(function () {
+            $(".headerReturn").click(function(){
+                window.history.back(-1);
+            });
+        })
+	</script>
+</head>
+
+<body>
+<!--页面头部-->
+<div class="header">
+	<ul>宝龙公寓商业网点</ul>
+	<ul class="headerReturn"></ul>
+</div>
+<!--页面列表-->
+<div class="pageT">
+	<div class="main_visual">
+		<div class="main_image">
+			<ul>
+				<li><span style="background:url(../image/houseImg.jpg); background-size:100% 100%;"></span></li>
+				<li><span style="background:url(../image/houseImg.jpg); background-size:100% 100%;"></span></li>
+				<li><span style="background:url(../image/houseImg.jpg); background-size:100% 100%;"></span></li>
+			</ul>
+			<a href="javascript:;" id="btn_prev"></a>
+			<a href="javascript:;" id="btn_next"></a>
+		</div>
+	</div>
+	<div class="detailInfo">
+		<ul class="detailTitle icon3">售楼电话</ul>
+		<ul class="detailTxt">0532-67712345</ul>
+	</div>
+	<div class="detailInfo">
+		<ul class="detailTitle icon4">参考价格</ul>
+		<ul class="detailTxt"><span class="fontRed"><strong>12345</strong></span>元/㎡（周边均价：18000元/㎡）</ul>
+	</div>
+	<div class="detailInfo">
+		<ul class="detailTitle icon5">楼盘地址</ul>
+		<ul class="detailTxt">山东省青岛市市北区重庆路12号</ul>
+	</div>
+	<div class="detailInfo">
+		<ul class="detailTitle icon6">按揭合作银行</ul>
+		<ul class="detailTxt">
+			<p>中国建设银行青岛分行</p>
+			<p>张经理 - 13800138000</p>
+		</ul>
+	</div>
+	<div class="detailInfo">
+		<ul class="detailTitle icon7">开盘时间</ul>
+		<ul class="detailTxt"><span class="fontRed">2018年10月</span></ul>
+	</div>
+	<div class="detailInfo">
+		<ul class="detailTitle icon8">楼盘简介</ul>
+		<ul class="detailTxt">作为与建行合作楼盘，位于山东省青岛市市北区重启路12号，是学区房，周边有湘江路3小，江苏路实验小学等周配套边设完完，善利群有家佳源等超市，地铁2号线。</ul>
+	</div>
+</div>
+</body>
+</html>

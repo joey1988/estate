@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+<title>MEUI</title>
+<link href="../css/meui.css" rel="stylesheet" type="text/css">
+<script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script src="../js/jquery.Slider.js" type="text/javascript"></script>
+<script src="../js/common.js" type="text/javascript"></script>
+<script src="../js/mejs.js" type="text/javascript"></script>
+</head>
+
+<body>
+<!--页面头部-->
+<div class="header">
+	<ul>不动产超市</ul>
+	<ul class="headerReturn"></ul>
+</div>
+<!--页面列表-->
+<div class="pageT">
+	<div class="show_msg none" id="alter">内部测试中，敬请期待</div>
+	<div class="csBg"></div>
+
+	<div class="csTerm">
+		<ul class="csTitle">
+			<li class="iconStyle3">政</li>
+			<li class="name">政务服务</li>
+			<!--
+			<li class="Label2">对外服务机构</li>
+			-->
+		</ul>
+		<ul class="csBody">
+			<li class="w50 br1"><a href="/initZwSer/zw01">青岛网上房地产</a></li>
+			<li class="w50"><a href="/initZwSer/zw02">市国土资源和房屋管理局</a></li>
+			<li class="w50 br1"><a href="/initZwSer/zw03">青岛住房保障网</a></li>
+			<li class="w50"><a href="/initZwSer/zw04">青岛市住房公积金网</a></li>
+			<li class="w100 bb0"><a href="/initZwSer/zw05">青岛市房屋专项维修资金管理信息网</a></li>
+		</ul>
+	</div>
+	<div class="csTerm">
+		<ul class="csTitle">
+			<li class="iconStyle4">楼</li>
+			<li class="name">合作楼盘展示</li>
+			<!--
+			<li class="Label2">对外服务机构</li>
+			-->
+		</ul>
+		<ul class="csBody">
+			<li class="w50 br1"><a href="/initAreaHouse/houselist01">市南区</a></li>
+			<li class="w50"><a href="/initAreaHouse/houselist02">市北区</a></li>
+			<li class="w50 br1"><a href="/initAreaHouse/houselist03" >李沧区</a></li>
+			<li class="w50"><a href="/initAreaHouse/houselist04" >崂山区</a></li>
+			<li class="w50 br1"><a href="/initAreaHouse/houselist05" >城阳区</a></li>
+			<li class="w50"><a href="/initAreaHouse/houselist06">高新区</a></li>
+			<li class="w50 br1"><a href="/initAreaHouse/houselist07">即墨区</a></li>
+			<li class="w50"><a href="/initAreaHouse/houselist08" >胶州市</a></li>
+			<li class="w50 br1 bb0"><a href="/initAreaHouse/houselist09">莱西市</a></li>
+			<li class="w50 bb0"><a href="/initAreaHouse/houselist10">平度市</a></li>
+		</ul>
+	</div>
+	<div class="csTerm">
+		<ul class="csTitle">
+			<li class="iconStyle1">介</li>
+			<li class="name">合作中介及金融服务机构</li>
+			<!--
+			<li class="Label2">对外服务机构</li>
+			-->
+		</ul>
+		<ul class="csBody">
+			<li class="w50 br1"><a href="medium/zj01">贝壳二手房网</a></li>
+			<li class="w50"><a href="medium/zj02">青岛Q房网</a></li>
+			<li class="w50 br1"><a href="medium/zj03">房天下</a></li>
+			<li class="w50"><a href="medium/zj04">青岛22世纪不动产</a></li>
+			<li class="w100 bb0"><a href="medium/zj05">深圳前海大道金融服务有限公司青岛分公司</a></li>
+		</ul>
+	</div>
+	<div class="csTerm">
+		<ul class="csTitle">
+			<li class="iconStyle2">评</li>
+			<li class="name">合作评估机构</li>
+		</ul>
+		<ul class="csBody">
+			<li class="w100"><a href="assess/pg01">山东鲁业房地产土地评估有限公司</a></li>
+			<li class="w100"><a href="assess/pg02">青岛衡元德房地产评估有限公司</a></li>
+			<li class="w100"><a href="assess/pg03">青岛恒德房地产土地评估有限公司</a></li>
+			<li class="w100"><a href="assess/pg04">山东正源房地产土地评估事务所有限责任公司</a></li>
+			<li class="w100"><a href="assess/pg05">青岛市骏盛房地产土地评估有限公司</a></li>
+			<li class="w100"><a href="assess/pg06">山东博莱仕土地房地产评估有限公司</a></li>
+			<li class="w100"><a href="assess/pg07">江苏金土地评估测绘咨询有限公司（青岛）</a></li>
+			<li class="w100"><a href="assess/pg08">山东贵恒信房地产土地评估经纪有限公司</a></li>
+			<li class="w100"><a href="assess/pg09">中证房地产评估造价集团有限公司</a></li>
+			<li class="w100"><a href="assess/pg10">青岛青房房地产土地评估事务所有限公司</a></li>
+			<li class="w100 bb0"><a href="assess/pg11">山东大地房地产土地估价有限公司</a></li>
+		</ul>
+	</div>
+	<div class="csTerm">
+		<ul class="csTitle">
+			<li class="iconStyle4">租</li>
+			<li class="name">合作住房租赁公司</li>
+			<!--
+			<li class="Label2">对外服务机构</li>
+			-->
+		</ul>
+		<ul class="csBody">
+			<li class="w100"><a href="rentcomp/zc01.html">青岛一站快租房产经济有限公司</a></li>
+			<li class="w100"><a href="rentcomp/zc02.html">青岛世联红璞公寓有限公司</a></li>
+			<li class="w100 bb0"><a href="rentcomp/zc03.html">极享家网络科技有限公司</a></li>
+		</ul>
+	</div>
+	<div class="csTerm">
+		<ul class="csTitle">
+			<li class="iconStyle1">租</li>
+			<li class="name">合作住房租赁专区</li>
+			<!--
+			<li class="Label1">金融机构</li>
+			-->
+		</ul>
+		<ul class="csBody">
+			<li class="w50 br1"><a href="http://jianguan.ccbhome.cn/wx/index?city=qd">CCB建融家园</a></li>
+			<li class="w50"><a href="javascript:;" class="c-alter">大学生专区</a></li>
+			<li class="w50 br1 bb0"><a href="javascript:;" class="c-alter">高级蓝领专区</a></li>
+		</ul>
+	</div>
+	<div class="csTerm">
+		<ul class="csTitle">
+			<li class="iconStyle2">贷</li>
+			<li class="name">个人贷款专区</li>
+			<!--
+			<li class="Label1">金融机构</li>
+			-->
+		</ul>
+		<ul class="csBody">
+			<li class="w50 br1"><a href="/initJsq">贷款试算</a></li>
+			<li class="w50"><a href="javascript:;" class="c-alter">贷款进入查询</a></li>
+			<li class="w50 br1 bb0"><a href="javascript:;" class="c-alter">预约提前还款</a></li>
+		</ul>
+	</div>
+</div>
+</body>
+
+</html>
